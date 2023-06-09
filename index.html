@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Fill out this survey so we can improve our service!</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Full Name:<input placeholder="Full Name" type="text" id="name" required></label>
+            <label id="email-label">E-Mail Address:<input placeholder="E-Mail Address" type="email" id="email" required></label>
+            <label id="number-label">Age:<input placeholder="Age" type="number" id="number" min="16" max="120" required></label>
+        </fieldset>
+        <fieldset>
+            <label id="gaming-hours-label">Time spent gaming per day: 
+                <select id="dropdown" name="gaming-hours">
+                    <option value="">(select one)</option>
+                    <option value="1">1-2</option>
+                    <option value="2">3-6</option>
+                    <option value="3">6-10</option>
+                    <option value="4">10+</option>
+                </select>
+            </label>
+            <script type="text/javascript">
+                function showfield(name){
+                  if(name=='Other')document.getElementById('div1').innerHTML='Other: <input type="text" name="other" />';
+                  else document.getElementById('div1').innerHTML='';
+                }
+            </script>
+            <label id="game-genre">Main game genre played:
+                <select id="dropdown" name="gaming-genre">
+                    <option value="">(select one)</option>
+                    <option value="1">FPS</option>
+                    <option value="2">Fantasy/Roleplay</option>
+                    <option value="3">Singleplayer</option>
+                    <option value="Other">Other</option>
+                </select>
+                <div id="div1"></div>
+            </label>
+            <h2>What do you play games on?</h2>
+            <label><input value="playstation" type="radio" id="console" name="console-button" required>PS4/5</label>
+            <label><input value="xbox" type="radio" id="console" name="console-button" required>Xbox One/Series S/X</label>
+            <label><input value="switch" type="radio" id="console" name="console-button" required>Nintendo Switch</label>
+            <label><input value="pc" type="radio" id="console" name="console-button" required>PC</label>
+            <label><input value="phone" type="radio" id="console" name="console-button" required>iOS/Android</label>
+        </fieldset>
+        <fieldset>
+            <input type="checkbox" value="terms" name="terms" id="checkbox" required>I accept the terms & conditions.
+            <input type="checkbox" value="data" name="data" id="checkbox" required>I understand my data will be stored securely.
+        </fieldset>
+        <fieldset>
+        <label id="help-label" name="help"> Is there anything we could improve with our survey?
+            <textarea rows="3" cols="30" placeholder="What can we do better?"></textarea>
+        </label>
+        <input type="submit" value="submit" id="submit">
+        </fieldset>
+    </form> 
+    </body>
+</html>
