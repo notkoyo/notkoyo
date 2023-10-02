@@ -1,7 +1,4 @@
-- 👋 Hi, I’m @notkoyo. Schön, sie kennenzulernen 🥳
-- 🍍 I’m interested in fitness and gaming
-- 🌱 I’m currently learning Web Development
-- 🪐 I’m looking to collaborate and learn from others
+- 👋 hi i’m @notkoyo, was geht ab 🫵🏼🤠
 
 <!---
 notkoyo/notkoyo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
