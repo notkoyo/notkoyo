@@ -1,6 +1,5 @@
-- 👋 Hi, I’m @notkoyo. Schön, sie kennenzulernen 🥳
+- 👋 Hi, I’m @notkoyo. schön, sie kennenzulernen 🥳
 - 🍍 I’m interested in fitness and gaming
-- 🌱 I’m currently learning Web Development
 - 🪐 I’m looking to collaborate and learn from others
 
 <!---
