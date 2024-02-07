@@ -1,4 +1,5 @@
-## 👋 hi i’m @notkoyo, was geht ab 🫵🏼🤠
+### 👋 hi i’m @notkoyo, was geht ab 🫵🏼🤠
+### Check out my projects below!
 
 <!---
 notkoyo/notkoyo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
