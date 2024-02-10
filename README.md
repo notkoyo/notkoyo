@@ -1,3 +1,5 @@
+<h3 style="text-align: center">Hi, I'm Kaiden 👋<h3>
+
 ### 👋 hi i’m @notkoyo, was geht ab 🫵🏼🤠
 ### Check out my projects below!
 
