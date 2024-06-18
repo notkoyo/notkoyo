@@ -4,3 +4,4 @@
 
 <h4 align=center>Other Projects</h4>
 <a href="https://github.com/notkoyo/jobi-cli"><p align=center>Jobi CLI</p></a>
+<a href="https://github.com/notkoyo/ncnews-api"><p align=center>NC News API V1</p></a>
