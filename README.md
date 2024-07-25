@@ -1,1 +1,1 @@
-<a href="https://kaide.dev"><p align=center>kaide.dev<p></a>
+<a href="https://kaide.dev" align="center">kaide.dev</a>
